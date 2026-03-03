@@ -1,0 +1,20 @@
+# Core dependencies
+torch>=2.1.0
+onnx>=1.15.0
+onnxruntime>=1.16.0
+numpy>=1.24.0
+tqdm>=4.65.0
+pyyaml>=6.0
+click>=8.1.0
+psutil>=5.9.0
+py-cpuinfo>=9.0.0
+
+# Quantization & Pruning
+torch-pruning>=1.2.0
+
+# Optional: Uncomment based on target hardware
+# onnxruntime-gpu>=1.16.0        # GPU acceleration
+# tensorrt>=8.6.0                # NVIDIA edge GPUs
+# tensorflow-lite>=2.14.0        # Coral TPU, mobile
+# coremltools>=7.0               # Apple Neural Engine
+# nvidia-ml-py3>=7.352.0         # GPU monitoring
